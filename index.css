@@ -1,0 +1,58 @@
+form {
+  width: 49.5%;
+}
+.signup-title {
+  text-align: center;
+}
+.fullname {
+  margin-bottom: 15px;
+}
+
+input {
+  margin-left: 2rem;
+  padding: 10px 20px;
+}
+
+.mobilenumber {
+  margin-bottom: 15px;
+}
+
+.email {
+  margin-bottom: 15px;
+}
+
+.last {
+  margin-left: 2rem;
+}
+
+.confirm {
+  margin-left: 2rem;
+}
+
+.buttons {
+  margin-left: 2rem;
+}
+
+.agree {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 42%;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.register {
+  margin-right: 2rem;
+  background-color: #738adb;
+  border: none;
+  color: white;
+}
+
+.signIn {
+  border: none;
+  color: white;
+  background-color: #7da565;
+}
