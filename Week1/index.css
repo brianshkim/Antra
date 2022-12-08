@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  height: 100vh;
+}
+
+.main {
+  background-color: black;
+  margin-top: -1rem;
+
+  position: sticky;
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 100%;
+}
+
+.main-nav {
+  top: 0%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  color: white;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -3%;
+  padding: 3%;
+  background-color: #c6bfbf;
+}
+.content-inner {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ul {
+  margin-left: 5%;
+  list-style: none;
+}
+
+li {
+  margin-left: 3%;
+}
+
+.content-paragraphs {
+  position: absolute;
+  display: flex;
+  width: 80%;
+  margin-left: 9%;
+}
+
+p {
+  margin-left: 3%;
+}
+
+.site-foot {
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-foot {
+  margin-left: -25%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  color: white;
+  background-color: #0b4d14;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content {
+  width: 50%;
+}
+
+@media screen and (max-height: 699px) {
+  .content-paragraphs {
+    height: 20rem;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-height: 600px) {
+  .content-paragraphs {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-height: 1200px) {
+  .content-paragraphs {
+    font-size: 30px;
+  }
+}
